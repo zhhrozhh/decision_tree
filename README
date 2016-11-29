@@ -1,0 +1,10 @@
+compile:
+    javac *java
+run:
+    java DTtest
+output tree:
+
+A       <---child of root
+|- B    <---child of A
+|-- C   <---child of B
+|- D    <---child of A
